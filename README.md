@@ -1,12 +1,12 @@
 # wmfs-laravel-boilerplate
-Laravel 8 project folder structure for the course Web &amp; Mobile Full-stack, part of the Professional Bachelor ICT study program.
+Laravel 9 project folder structure for the course Web &amp; Mobile Full-stack, part of the Professional Bachelor ICT study program.
 
 ## Links
 
-* [Course slides wmfs-laravel](https://intern.ikdoeict.be/apps/leercentrum/courses/wmfs-laravel-course-materials/)
+* [Course slides wmfs-laravel](https://jorismaervoet.ikdoeict.be/workshops-wmfs-laravel/)
 * [PHP Documentation](https://www.php.net/docs.php)
-* [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
-* [Laravel 8 documentation](https://laravel.com/docs/8.x)
+* [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
+* [Laravel 9 documentation](https://laravel.com/docs/9.x)
 
 ## Installing and developing your own project based on this boilerplate
 
@@ -46,13 +46,20 @@ $ cp .env.example .env
 $ composer install
 $ php artisan key:generate
 $ touch storage/logs/laravel.log
-$ chmod 777 -R storage
+$ chmod 777 -R storage bootstrap/cache
 $ php artisan storage:link
 $ exit
 ```
 
 
 ## Recipes and troubleshooting
+
+### I still have problems with file permissions (WSL2)
+* Symptoms: web server or artisan has still errors when writing to file system
+* Run from your WLS2 Ubuntu terminal
+```shell
+$ sudo chown yourname:yourname -R .
+```
 
 ### <code>docker-compose up</code> does not start one or more containers
 * Look at the output of <code>docker-compose up</code>. When a container (fails and) exits, it is shown as the last line of the container output (colored tags by container)
