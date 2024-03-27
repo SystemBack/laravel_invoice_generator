@@ -3,7 +3,7 @@ Laravel 10 project folder structure for the course Full-stack Development, part 
 
 ## Links
 
-* [Course slides wmfs-laravel](https://ikdoeict.gitlab.io/public/vakken/full-stack-development/workshops-laravel)
+* [Course slides fsd-laravel](https://ikdoeict.gitlab.io/public/vakken/full-stack-development/workshops-laravel)
 * [PHP Documentation](https://www.php.net/docs.php)
 * [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
 * [Laravel 10 documentation](https://laravel.com/docs/10.x)
