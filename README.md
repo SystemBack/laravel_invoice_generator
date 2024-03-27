@@ -1,22 +1,22 @@
 # wmfs-laravel-boilerplate
-Laravel 9 project folder structure for the course Web &amp; Mobile Full-stack, part of the Professional Bachelor ICT study program.
+Laravel 10 project folder structure for the course Web &amp; Mobile Full-stack, part of the Professional Bachelor ICT study program.
 
 ## Links
 
-* [Course slides wmfs-laravel](https://jorismaervoet.ikdoeict.be/workshops-wmfs-laravel/)
+* [Course slides wmfs-laravel](https://ikdoeict.gitlab.io/public/vakken/full-stack-development/workshops-laravel)
 * [PHP Documentation](https://www.php.net/docs.php)
 * [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
-* [Laravel 9 documentation](https://laravel.com/docs/9.x)
+* [Laravel 10 documentation](https://laravel.com/docs/10.x)
 
 ## Installing and developing your own project based on this boilerplate
 
-1. Create a new completely! empty project on gitlab.com/ikdoeict, for example my-project
-2. Execute following commands on your system (pay attention !)
+1. Create a new **completely! empty** project on gitlab.com/ikdoeict, for example my-project
+2. Execute following commands on your system (pay attention !) <br> You can use SSH-urls in stead of HTTPS-urls if you like.
 ```shell
 mkdir my-project
 cd my-project
 git init
-git pull https://gitlab.com/ikdoeict/joris.maervoet/wmfs-laravel-boilerplate.git
+git pull https://gitlab.com/ikdoeict/public/vakken/full-stack-development/laravel-boilerplate.git
 git remote add origin https://gitlab.com/ikdoeict/<your-name>/my-project.git
 git push -u origin master
 ```
