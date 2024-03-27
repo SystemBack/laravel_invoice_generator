@@ -1,5 +1,5 @@
-# wmfs-laravel-boilerplate
-Laravel 10 project folder structure for the course Web &amp; Mobile Full-stack, part of the Professional Bachelor ICT study program.
+# laravel-boilerplate
+Laravel 10 project folder structure for the course Full-stack Development, part of the Professional Bachelor ICT study program.
 
 ## Links
 
